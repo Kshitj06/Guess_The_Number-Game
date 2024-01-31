@@ -31,7 +31,7 @@ class Guess {
         System.out.println("Welcome to guess the number game.");
         while (true) {
             try {
-                System.out.print("Enter your guess number between 0 and 100(-1 to quit):");
+                System.out.print("Enter your guess number between 0 and 100(-1 to quit the current game):");
                 num = sc.nextInt();
                 if (num <= 100 && num >= 0) {
                     break;
